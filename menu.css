@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Space Mono', monospace;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  nav{
+    display: flex;
+    background-color: steelblue;
+    padding-top: 10px;
+  }
+  
+  .logo{
+    padding: 0px 30px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: steelblue;
+  }
+  
+  
+  .navbar{
+    top: 0;
+    width: 100%;
+    text-align: right;
+  }
+  
+  .navlist{
+    display: inline-block;
+    padding-top: 30px;
+  }
+  
+  .navitem{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 0px 30px;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  body{
+    background-color: lightblue;
+  }
+  
+  h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px red;
+    font-size: 50px;
+    background-color: steelblue;
+  }
+  
+  .cardleft{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-left: 18%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px 10px;
+    background-color: papayawhip;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  .cardright{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-right: 18%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px 10px;
+    background-color: papayawhip;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  img{
+    border-radius: 10px;
+    height: 400px;
+  }
+  
+  .cardleft:hover{
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.7);
+  }
+  
+  .cardright:hover{
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.7);
+  }
+  
+  .menuItem{
+    text-align: center;
+    padding: 5px 5px;
+  }
+  
+  footer {
+    position: relative;
+    bottom: 0;
+    background-color: steelblue;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+  }

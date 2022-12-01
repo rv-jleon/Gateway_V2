@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Space Mono', monospace;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  nav{
+    display: flex;
+    background-color: steelblue;
+    padding-top: 10px;
+  }
+  
+  .logo{
+    padding: 0px 30px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: steelblue;
+  }
+  
+  .navbar{
+    top: 0;
+    width: 100%;
+    text-align: right;
+  }
+  
+  .navlist{
+    display: inline-block;
+    padding-top: 30px;
+  }
+  
+  .navitem{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 0px 30px;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  body{
+    background-color: lightblue;
+  }
+  
+  h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px red;
+    font-size: 50px;
+    background-color: steelblue;
+  }
+  
+  p{
+    color: gray;
+    padding: 6px;
+    margin: 3px;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: steelblue;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: lightblue;
+  }
+  
+  form {
+    border-radius: 10px;
+    background-color: #FFEFD5;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  footer {
+    position: relative;
+    bottom: 0;
+    background-color: steelblue;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
