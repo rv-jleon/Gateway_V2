@@ -99,7 +99,7 @@
   }
   
   footer {
-    position: relative;
+    position: fixed;
     bottom: 0;
     background-color: steelblue;
     width: 100%;
